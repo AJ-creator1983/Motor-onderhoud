@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "MotoCare",
+    "slug": "motocare",
+    "version": "1.0.0",
+    "scheme": "motocare",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "backgroundColor": "#121212",
+    "splash": {
+      "backgroundColor": "#121212"
+    },
+    "plugins": ["expo-router"],
+    "android": {
+      "package": "com.motocare.app",
+      "backgroundColor": "#121212",
+      "adaptiveIcon": {
+        "backgroundColor": "#121212"
+      }
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.motocare.app"
+    }
+  }
+}
